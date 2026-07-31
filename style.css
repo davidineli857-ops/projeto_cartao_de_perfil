@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+#quadro {
+    border: 1px solid rgba(0, 0, 0, 0.863);
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  
+}
+
+
+.foto_de_perfil {
+  background-image: url("imagens/Sérgio.jpg");
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.menu {
+    text-align: right;
+   
+}
+
+
+p > input {
+    background-color: rgb(0, 94, 255);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 9px;
+
+}
+
+p > input:hover {
+    padding: 7px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+h1 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1:hover {
+    font-size: 33px;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    hyphens: auto;
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius:10px;
+    background-color:rgb(0, 94, 255) ;
+    padding: 5px;
+    font-size: 16px;
+}
+
+a:hover {
+ font-size: 18px;
+ padding: 6px;
+ 
+}
+
+
+/*
+Requisitos
+
+Você fará duas páginas.
+
+Página 1 - Home
+
+Crie um cartão de perfil contendo:
+
+Foto (pode ser qualquer imagem)
+Nome
+Uma pequena descrição
+Um botão chamado "Ver detalhes"
+
+O cartão deve ficar centralizado na tela usando Flexbox.
+
+Responsividade
+
+Quando a tela tiver menos de 700px:
+
+o cartão deve diminuir de largura;
+os textos devem ficar um pouco menores;
+a imagem também deve diminuir.
+
+Use Media Query.
+
+Interações JavaScript
+
+Adicione um botão:
+
+"Mudar tema"
+
+Quando clicar:
+
+fundo branco → fundo escuro;
+texto preto → branco;
+botão muda de cor também.
+
+Não precisa salvar o tema ao atualizar.
+
+Página 2 - Sobre
+
+Ao clicar em "Ver detalhes", abrir uma segunda página contendo:
+
+Um título
+Um pequeno texto
+Um botão "Voltar" que retorna para a página inicial.
+Organização
+projeto/
+
+index.html
+sobre.html
+style.css
+script.js
+imagens/
+Extras (vale pontos)
+
+Se conseguir fazer algum destes, ganha pontos extras:
+
+⭐ efeito suave (transition) quando trocar o tema.
+
+⭐⭐ quando passar o mouse sobre o cartão, ele aumenta levemente (transform: scale()).
+
+⭐⭐⭐ botão muda de texto:
+
+Modo Escuro
+
+↓
+
+Modo Claro
+
+dependendo do estado.
+
+Restrições
+
+Não use Bootstrap.
+
+Não copie código da internet.
+
+Faça tudo usando apenas:
+
+HTML
+CSS
+JavaScript puro
+O que você vai praticar
+Estrutura HTML
+Links entre páginas
+Flexbox
+Media Queries
+Classes CSS
+classList.toggle()
+Eventos (addEventListener)
+Manipulação do DOM
+Organização de arquivos
+
+*/
+
+

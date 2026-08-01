@@ -28,6 +28,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+
   
  
 }
@@ -125,8 +127,13 @@ a:hover {
     align-items: center;
     flex-direction:row;
     flex-wrap: nowrap;
+   
 
  
+    }
+
+    a {
+        min-width: 160px;
     }
 }
 

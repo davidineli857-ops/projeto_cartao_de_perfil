@@ -8,6 +8,13 @@
   
 }
 
+#titulo  {
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(0, 72, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .foto_de_perfil {
   background-image: url("imagens/Sérgio.jpg");
@@ -23,6 +30,8 @@
   
  
 }
+
+
 .menu {
     text-align: right;
    
@@ -54,6 +63,7 @@ h1 {
   margin-top: 5px;
   text-align: center;
   font-size: 30px;
+ 
 }
 
 h1:hover {
@@ -97,9 +107,9 @@ a:hover {
 @media screen and (max-width:600px) {
     #quadro {
     border: 1px solid rgba(0, 0, 0, 0.863);
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
    
     }
 

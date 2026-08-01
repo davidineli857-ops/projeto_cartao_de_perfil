@@ -100,8 +100,18 @@ a:hover {
     width: 300px;
     height: 300px;
     border-radius: 150px;
-  
-}
+   
+    }
+
+    .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+
+ 
+    }
 }
 
 

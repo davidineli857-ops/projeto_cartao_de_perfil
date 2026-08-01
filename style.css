@@ -37,6 +37,10 @@
    
 }
 
+.jutify {
+    text-align: justify;
+}
+
 
 p > input {
     background-color: rgb(0, 94, 255);
@@ -74,6 +78,7 @@ p {
     text-align: center;
     font-size: 17px;
     hyphens: auto;
+    
 }
 
 a {

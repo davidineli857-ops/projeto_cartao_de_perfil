@@ -85,6 +85,26 @@ a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    #quadro {
+    border: 1px solid rgba(0, 0, 0, 0.863);
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+  
+}
+}
+
+
 /*
 Requisitos
 
